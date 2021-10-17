@@ -20,6 +20,6 @@ function updateRate()
 {
     //Dynamically update the range text as user drags the slider
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }
         
